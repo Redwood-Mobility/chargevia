@@ -18,6 +18,9 @@
   --text-muted: #888888;
   --border-color: #E0E0E0;
 
+  /* Constant dark color for dark sections */
+  --dark-section-bg: #2C3E50;
+
   /* Legacy aliases */
   --asphalt: var(--text-primary);
   --white: var(--bg-primary);
@@ -432,25 +435,25 @@ section {
 }
 
 .bg-dark {
-  background: var(--asphalt);
-  color: var(--white);
+  background: var(--dark-section-bg);
+  color: #FFFFFF;
 }
 
 .bg-dark h2,
 .bg-dark h3,
 .bg-dark h4 {
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .bg-gradient {
   background: var(--gradient-primary);
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .bg-gradient h2,
 .bg-gradient h3,
 .bg-gradient h4 {
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 /* ===== Feature Grid ===== */
@@ -798,8 +801,8 @@ section {
 
 /* ===== Footer ===== */
 .site-footer {
-  background: var(--asphalt);
-  color: var(--white);
+  background: var(--dark-section-bg);
+  color: #FFFFFF;
   padding: 4rem 0 2rem;
 }
 
@@ -820,7 +823,7 @@ section {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--white);
+  color: #FFFFFF;
   font-size: 1.25rem;
   font-weight: 700;
 }
@@ -844,7 +847,7 @@ section {
 }
 
 .footer-links h4 {
-  color: var(--white);
+  color: #FFFFFF;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
@@ -1269,14 +1272,34 @@ section {
     border-color: var(--bg-secondary);
   }
 
-  /* Dark mode doesn't affect gradient/dark sections */
+  /* Dark mode doesn't affect gradient/dark sections - explicitly maintain dark backgrounds */
   .bg-dark,
+  .site-footer {
+    background: var(--dark-section-bg);
+    color: #FFFFFF;
+  }
+
+  .bg-dark h2,
+  .bg-dark h3,
+  .bg-dark h4,
+  .site-footer h4,
+  .footer-logo,
+  .footer-links h4 {
+    color: #FFFFFF;
+  }
+
   .bg-gradient,
   .hero,
   .page-header,
-  .cta-section.bg-gradient,
-  .site-footer {
-    /* These sections maintain their colors */
+  .cta-section.bg-gradient {
+    color: #FFFFFF;
+  }
+
+  .bg-gradient h2,
+  .bg-gradient h3,
+  .hero h1,
+  .page-header h1 {
+    color: #FFFFFF;
   }
 
   .bg-dark .feature-card,
