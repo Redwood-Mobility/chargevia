@@ -1,0 +1,28 @@
+<header class="site-header">
+  <div class="container">
+    <nav class="nav">
+      <a href="{{ '/' | relative_url }}" class="logo">
+        <svg class="logo-icon" viewBox="0 0 48 48" width="40" height="40" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#FF6B35" stroke="#6A4C93" stroke-width="3"/>
+          <path d="M24 8 L24 18 L30 18 L22 40 L22 28 L16 28 Z" fill="#FFD700"/>
+        </svg>
+        <span class="logo-text">ChargeVia</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+        <li><a href="{{ '/locations' | relative_url }}" {% if page.url == '/locations/' %}class="active"{% endif %}>Locations</a></li>
+        <li><a href="{{ '/format' | relative_url }}" {% if page.url == '/format/' %}class="active"{% endif %}>The Format</a></li>
+        <li><a href="{{ '/membership' | relative_url }}" {% if page.url == '/membership/' %}class="active"{% endif %}>Membership</a></li>
+        <li><a href="{{ '/fleet' | relative_url }}" {% if page.url == '/fleet/' %}class="active"{% endif %}>Fleet</a></li>
+        <li><a href="{{ '/partners' | relative_url }}" {% if page.url == '/partners/' %}class="active"{% endif %}>Partners</a></li>
+        <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a></li>
+        <li class="nav-cta"><a href="{{ '/locations' | relative_url }}" class="btn btn-primary">Find a Station</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

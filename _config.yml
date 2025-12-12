@@ -1,0 +1,45 @@
+# ChargeVia Website Configuration
+title: ChargeVia
+description: Fast charging. Real convenience. The EV gas station.
+url: https://chargevia.com
+baseurl: ""
+
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  locations:
+    output: true
+    permalink: /locations/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      author: ChargeVia
+
+# Social
+twitter:
+  username: chargevia
+  card: summary_large_image
+
+# SEO
+logo: /assets/images/chargevia-logo-primary.svg
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+  - CHARGEVIA_WEBSITE_PROJECT_BRIEF.md
