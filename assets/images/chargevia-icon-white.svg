@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 115">
+    <!-- ChargeVia Icon Only - White (for dark backgrounds) -->
+    
+    <!-- Main pin body - White -->
+    <path d="M45 0 C69.8 0 90 20.2 90 45 C90 63 79.2 79.2 45 112.5 C10.8 79.2 0 63 0 45 C0 20.2 20.2 0 45 0 Z" fill="white"/>
+    
+    <!-- Plug body (transparent/knockout) -->
+    <rect x="25" y="32" width="40" height="38" rx="4" fill="#2C3E50"/>
+    
+    <!-- Left prong -->
+    <rect x="30" y="18" width="8" height="18" rx="2.5" fill="#2C3E50"/>
+    
+    <!-- Right prong -->
+    <rect x="52" y="18" width="8" height="18" rx="2.5" fill="#2C3E50"/>
+    
+    <!-- Lightning bolt - White -->
+    <path d="M49 40 L40 52 L44 52 L41 66 L52 51 L47 51 L49 40 Z" fill="white"/>
+</svg>
