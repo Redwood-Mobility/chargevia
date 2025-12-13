@@ -445,6 +445,14 @@ section {
   color: #FFFFFF;
 }
 
+.bg-dark .feature-card h3 {
+  color: #2C3E50;
+}
+
+.bg-dark .feature-card p {
+  color: #666666;
+}
+
 .bg-gradient {
   background: var(--gradient-primary);
   color: #FFFFFF;
