@@ -515,6 +515,16 @@ section {
   margin-top: 1.25rem;
 }
 
+.feature-card.text-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-card.text-center .btn {
+  margin-top: auto;
+  padding-top: 1.25rem;
+}
+
 /* ===== Benefits Section ===== */
 .benefits-grid {
   display: grid;
