@@ -511,6 +511,10 @@ section {
   margin-bottom: 0;
 }
 
+.feature-card .btn {
+  margin-top: 1.25rem;
+}
+
 /* ===== Benefits Section ===== */
 .benefits-grid {
   display: grid;
