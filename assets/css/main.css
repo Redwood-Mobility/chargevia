@@ -1165,6 +1165,10 @@ section {
     color: var(--text-primary);
   }
 
+  .logo svg text {
+    fill: var(--text-primary);
+  }
+
   .nav-menu a {
     color: var(--text-primary);
   }
