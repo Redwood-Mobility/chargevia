@@ -21,13 +21,12 @@
       </button>
 
       <ul class="nav-menu">
-        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
-        <li><a href="{{ '/locations' | relative_url }}" {% if page.url == '/locations/' %}class="active"{% endif %}>Locations</a></li>
-        <li><a href="{{ '/format' | relative_url }}" {% if page.url == '/format/' %}class="active"{% endif %}>The Format</a></li>
+        <li><a href="{{ '/' | relative_url }}#format">The Format</a></li>
+        <li><a href="{{ '/' | relative_url }}#locations">Locations</a></li>
+        <li><a href="{{ '/' | relative_url }}#fleet">Fleet</a></li>
+        <li><a href="{{ '/' | relative_url }}#partners">Partners</a></li>
+        <li><a href="{{ '/' | relative_url }}#faq">FAQ</a></li>
         <li><a href="https://pathfinderrewards.com" target="_blank" rel="noopener">Pathfinder Rewards</a></li>
-        <li><a href="{{ '/fleet' | relative_url }}" {% if page.url == '/fleet/' %}class="active"{% endif %}>Fleet</a></li>
-        <li><a href="{{ '/partners' | relative_url }}" {% if page.url == '/partners/' %}class="active"{% endif %}>Partners</a></li>
-        <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a></li>
       </ul>
     </nav>
   </div>
