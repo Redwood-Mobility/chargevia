@@ -9,7 +9,7 @@
       <stop offset="100%" style="stop-color:#7B5BA4"/>
     </linearGradient>
   </defs>
-  <rect x="4" y="4" width="72" height="72" rx="16" fill="#111111"/>
+  <rect x="4" y="4" width="72" height="72" rx="16" fill="#FFFFFF"/>
   <path d="M22 22 L40 40 L22 58" stroke="url(#orangeGrad)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   <path d="M40 22 L58 40 L40 58" stroke="url(#purpleGrad)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>

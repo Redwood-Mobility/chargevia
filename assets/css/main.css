@@ -4,10 +4,11 @@
 :root {
   /* Brand Colors (constant) */
   --charge-orange: #FF6B35;
-  --charge-orange-dark: #E55A25;
-  --power-purple: #6A4C93;
-  --power-purple-dark: #5A3D7D;
+  --charge-orange-dark: #E85A24;
+  --power-purple: #8B6BB4;
+  --power-purple-dark: #7B5BA4;
   --spark-yellow: #FFD700;
+  --brand-dark: #111111;
 
   /* Theme Colors (light mode defaults) */
   --bg-primary: #FFFFFF;
@@ -19,7 +20,7 @@
   --border-color: #E0E0E0;
 
   /* Constant dark color for dark sections */
-  --dark-section-bg: #2C3E50;
+  --dark-section-bg: #111111;
 
   /* Legacy aliases */
   --asphalt: var(--text-primary);
@@ -28,7 +29,7 @@
   --medium-gray: var(--border-color);
   --dark-gray: var(--text-secondary);
 
-  --gradient-primary: linear-gradient(135deg, #FF6B35 0%, #6A4C93 100%);
+  --gradient-primary: linear-gradient(135deg, #FF6B35 0%, #8B6BB4 100%);
 
   --font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 
