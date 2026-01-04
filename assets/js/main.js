@@ -83,4 +83,22 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }
+
+  // Intersection Observer for scroll animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.feature-card, .benefit-card, .step, .fleet-card, .partner-card, .faq-item').forEach(function(el) {
+    observer.observe(el);
+  });
 });

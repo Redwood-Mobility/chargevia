@@ -4,27 +4,55 @@ title: The EV Gas Station
 description: ChargeVia is the EV gas station. Fast charging + convenience store + driver's lounge + clean restrooms. Part of Pathfinder Rewards. Coming to cities near you.
 ---
 
+<div class="noise-overlay" aria-hidden="true"></div>
+
 <!-- Hero Section -->
 <section class="hero">
+  <div class="hero-bg">
+    <div class="hero-glow"></div>
+    <div class="hero-grid"></div>
+  </div>
+
   <div class="container">
-    <h1>Fast charging. Real convenience.</h1>
-    <p class="lead">The EV gas station you actually want to stop at. Fast chargers, convenience store, driver's lounge, and restrooms that don't make you question your life choices. In and out before your coffee gets cold.</p>
-    <div class="hero-buttons">
-      <a href="#locations" class="btn btn-white btn-lg">Find a Station</a>
-      <a href="#format" class="btn btn-primary btn-lg">The Format</a>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Coming Soon to Cities Near You
+      </div>
+
+      <h1 class="hero-title">
+        <span class="hero-title-line">Fast charging.</span>
+        <span class="hero-title-line"><span class="highlight">Real convenience.</span></span>
+      </h1>
+
+      <p class="hero-description">
+        The EV gas station you actually want to stop at. Fast chargers, convenience store, driver's lounge, and restrooms that don't make you question your life choices.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#locations" class="btn btn-primary btn-lg">
+          Find a Station
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="#features" class="btn btn-secondary btn-lg">See The Format</a>
+      </div>
     </div>
   </div>
+
 </section>
 
-<!-- The Format Section -->
-<section id="format" class="bg-light">
+<!-- Features Section -->
+<section class="features" id="features">
   <div class="container">
     <div class="section-header">
-      <h2>The EV Pit Stop Done Right</h2>
-      <p class="lead">Everything you need. Nothing you don't. Just like your favorite gas station, but for EVs.</p>
+      <span class="section-label">The Format</span>
+      <h2 class="section-title">The EV Pit Stop Done Right</h2>
+      <p class="section-description">Everything you need. Nothing you don't. Just like your favorite gas station, but for EVs.</p>
     </div>
 
-    <div class="feature-grid">
+    <div class="features-grid">
       <div class="feature-card">
         <div class="feature-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -49,19 +77,21 @@ description: ChargeVia is the EV gas station. Fast charging + convenience store 
       <div class="feature-card">
         <div class="feature-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-            <circle cx="12" cy="7" r="4"/>
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
           </svg>
         </div>
         <h3>Driver's Lounge</h3>
-        <p>Comfy seats, free Wi-Fi, and spots to get stuff done. Or just scroll your phone in peace. We don't judge.</p>
+        <p>Comfy seats, free Wi-Fi, and spots to get stuff done. Or just scroll your phone in peace.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="3" y="11" width="18" height="10" rx="2"/>
-            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+            <path d="M9 12l2 2 4-4"/>
           </svg>
         </div>
         <h3>Clean Restrooms</h3>
@@ -71,10 +101,10 @@ description: ChargeVia is the EV gas station. Fast charging + convenience store 
       <div class="feature-card">
         <div class="feature-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="2" y="4" width="20" height="16" rx="2"/>
-            <path d="M6 8h.01"/>
-            <path d="M10 8h.01"/>
-            <path d="M14 8h.01"/>
+            <rect x="3" y="4" width="18" height="12" rx="2"/>
+            <path d="M3 10h18"/>
+            <path d="M7 16v4"/>
+            <path d="M17 16v4"/>
           </svg>
         </div>
         <h3>Covered Charging Bays</h3>
@@ -88,76 +118,96 @@ description: ChargeVia is the EV gas station. Fast charging + convenience store 
           </svg>
         </div>
         <h3>Well-Lit & Secure</h3>
-        <p>Bright lights, clear sightlines, cameras everywhere. Charge at midnight without feeling like you're in a horror movie.</p>
+        <p>Bright lights, clear sightlines, cameras everywhere. Charge at midnight without the horror movie vibes.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- How It Works Section -->
-<section id="how-it-works">
+<section class="how-it-works" id="how-it-works">
   <div class="container">
     <div class="section-header">
-      <h2>How It Works</h2>
-      <p class="lead">Just like a gas station. Except electric. And better.</p>
+      <span class="section-label">How It Works</span>
+      <h2 class="section-title">Just Like a Gas Station</h2>
+      <p class="section-description">Except electric. And better.</p>
     </div>
 
-    <div class="steps">
+    <div class="steps-container">
+      <div class="steps-line"></div>
+
       <div class="step">
-        <h4>Pull In</h4>
-        <p>Any open bay works. Just like a gas station, except quieter.</p>
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h4>Pull In</h4>
+          <p>Any open bay works. Just like a gas station, except quieter.</p>
+        </div>
       </div>
+
       <div class="step">
-        <h4>Plug In</h4>
-        <p>Connect the charger. Pathfinder members start charging automatically. Everyone else taps their card.</p>
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h4>Plug In</h4>
+          <p>Connect the charger. Pathfinder members start automatically.</p>
+        </div>
       </div>
+
       <div class="step">
-        <h4>Head Inside</h4>
-        <p>Your car's fine. Go grab a coffee, use the restroom, check out the lounge.</p>
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h4>Head Inside</h4>
+          <p>Your car's fine. Grab a coffee, use the restroom, check out the lounge.</p>
+        </div>
       </div>
+
       <div class="step">
-        <h4>Do Your Thing</h4>
-        <p>Snacks, drinks, emails, existential contemplation. Whatever you need.</p>
-      </div>
-      <div class="step">
-        <h4>Unplug & Go</h4>
-        <p>Hang up the charger, hop in, drive off. Payment's already handled.</p>
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h4>Unplug & Go</h4>
+          <p>Hang up the charger, hop in, drive off. Payment's already handled.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Gas Station Heritage Section -->
-<section id="about" class="bg-dark">
+<!-- Heritage Section -->
+<section class="heritage" id="heritage">
   <div class="container">
-    <div class="split-section">
-      <div class="split-content">
+    <div class="heritage-grid">
+      <div class="heritage-content">
         <h2>The Gas Station, Reimagined</h2>
-        <p class="lead" style="color: rgba(255,255,255,0.8);">We're bringing the gas station experience to EVs.</p>
-        <p style="color: rgba(255,255,255,0.7);">Sometimes we convert old gas stations. Sometimes we build new ones from scratch. Either way, you get EV charging that feels familiar - same format you've known your whole life, just powered by electricity instead of dinosaurs.</p>
-        <ul class="check-list" style="color: rgba(255,255,255,0.8); margin-top: 1.5rem;">
+        <p class="lead">We're bringing the gas station experience to EVs.</p>
+        <p>Sometimes we convert old gas stations. Sometimes we build new ones from scratch. Either way, you get EV charging that feels familiar - same format you've known your whole life, just powered by electricity instead of dinosaurs.</p>
+
+        <ul class="heritage-list">
           <li>The proven convenience format, electrified</li>
           <li>New builds and conversions</li>
           <li>Familiar experience for a new era</li>
         </ul>
       </div>
-      <div class="split-image">
-        <img src="{{ '/assets/images/chargevia-concept2.png' | relative_url }}" alt="ChargeVia station concept rendering" style="width: 100%; height: 100%; object-fit: cover;">
+
+      <div class="heritage-visual">
+        <div class="heritage-image">
+          <img src="{{ '/assets/images/chargevia-concept2.png' | relative_url }}" alt="ChargeVia station concept rendering">
+        </div>
+        <div class="heritage-accent"></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Why ChargeVia Section -->
-<section class="bg-light">
+<!-- Benefits Section -->
+<section class="benefits" id="benefits">
   <div class="container">
     <div class="section-header">
-      <h2>Why ChargeVia?</h2>
-      <p class="lead">Charging should just work. Here's how we make that happen.</p>
+      <span class="section-label">Why ChargeVia</span>
+      <h2 class="section-title">Charging Should Just Work</h2>
+      <p class="section-description">Here's how we make that happen.</p>
     </div>
 
     <div class="benefits-grid">
-      <div class="benefit-item">
+      <div class="benefit-card">
         <div class="benefit-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
@@ -165,10 +215,10 @@ description: ChargeVia is the EV gas station. Fast charging + convenience store 
           </svg>
         </div>
         <h3>Charge Where You Are</h3>
-        <p>On your route, not out of your way. No detours to sketchy parking garages required.</p>
+        <p>On your route, not out of your way. No detours to sketchy parking garages.</p>
       </div>
 
-      <div class="benefit-item">
+      <div class="benefit-card">
         <div class="benefit-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -179,140 +229,135 @@ description: ChargeVia is the EV gas station. Fast charging + convenience store 
         <p>Chargers that actually work. Wild concept, we know. Check availability before you arrive.</p>
       </div>
 
-      <div class="benefit-item">
+      <div class="benefit-card">
         <div class="benefit-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="12" cy="8" r="7"/>
             <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
           </svg>
         </div>
-        <h3><a href="https://pathfinderrewards.com" target="_blank" rel="noopener" style="color: inherit;">Pathfinder Rewards</a></h3>
-        <p>Flat-rate pricing. Credits back on every charge. Works at ChargeVia and partner networks.</p>
+        <h3>Pathfinder Rewards</h3>
+        <p>Flat-rate pricing. Credits back on every charge. Works at ChargeVia and partners.</p>
       </div>
 
-      <div class="benefit-item">
+      <div class="benefit-card">
         <div class="benefit-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
             <line x1="3" y1="9" x2="21" y2="9"/>
             <line x1="9" y1="21" x2="9" y2="9"/>
           </svg>
         </div>
         <h3>On-Site Convenience</h3>
-        <p>Actual food. Actual coffee. Actual restrooms. Not a sad vending machine next to a dumpster.</p>
+        <p>Actual food. Actual coffee. Actual restrooms. Not a sad vending machine.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Locations Section -->
-<section id="locations">
+<section class="locations" id="locations">
   <div class="container">
     <div class="section-header">
-      <h2>Find a Station</h2>
-      <p class="lead">We're putting stations where you actually drive. Novel concept, right?</p>
+      <span class="section-label">Locations</span>
+      <h2 class="section-title">Find a Station</h2>
+      <p class="section-description">We're putting stations where you actually drive. Novel concept, right?</p>
     </div>
 
-    <div class="coming-soon" style="text-align: center; padding: 3rem; background: var(--bg-light); border-radius: 1rem; margin-bottom: 2rem;">
+    <div class="locations-coming-soon">
       <h3>Stations Coming Soon</h3>
-      <p>We're building as fast as we can. Drop your email below to be first to know when we open near you.</p>
+      <p>We're building as fast as we can. Check back soon for locations near you.</p>
     </div>
 
-    <div class="feature-grid" style="max-width: 800px; margin: 0 auto;">
-      <div class="feature-card">
-        <h3>Urban Corridors</h3>
-        <p>High-traffic routes in and around major cities. Charge on your commute, not out of your way.</p>
+    <div class="locations-types">
+      <div class="location-type">
+        <h4>Urban Corridors</h4>
+        <p>High-traffic routes in and around major cities.</p>
       </div>
-
-      <div class="feature-card">
-        <h3>Suburban Hubs</h3>
-        <p>Near shopping, dining, and services you already visit. Convenient stops, not detours.</p>
+      <div class="location-type">
+        <h4>Suburban Hubs</h4>
+        <p>Near shopping, dining, and services you already visit.</p>
       </div>
-
-      <div class="feature-card">
-        <h3>Highway Adjacent</h3>
-        <p>Right off the highway, not buried in some industrial park you need GPS to escape.</p>
+      <div class="location-type">
+        <h4>Highway Adjacent</h4>
+        <p>Right off the highway, not buried in some industrial park.</p>
       </div>
-
-      <div class="feature-card">
-        <h3>The Gas Station Format</h3>
-        <p>New builds and converted gas stations. The familiar format you know, powered by electricity.</p>
+      <div class="location-type">
+        <h4>Gas Station Format</h4>
+        <p>New builds and converted stations. The familiar format you know.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Fleet Section -->
-<section id="fleet" class="bg-dark">
+<section class="fleet" id="fleet">
   <div class="container">
     <div class="section-header">
-      <h2>Fleet Solutions</h2>
-      <p class="lead" style="color: rgba(255,255,255,0.8);">Your drivers have enough to worry about. Charging shouldn't be one of them.</p>
+      <span class="section-label">Fleet Solutions</span>
+      <h2 class="section-title">Fleet Solutions</h2>
+      <p class="section-description">Your drivers have enough to worry about. Charging shouldn't be one of them.</p>
     </div>
 
-    <div class="feature-grid" style="grid-template-columns: repeat(2, 1fr);">
-      <div class="feature-card">
+    <div class="fleet-grid">
+      <div class="fleet-card">
         <h3>Real-Time Availability</h3>
         <p>See what's open before you send your driver. Plan with data, not prayers.</p>
       </div>
-
-      <div class="feature-card">
+      <div class="fleet-card">
         <h3>Reliable Equipment</h3>
         <p>We monitor and maintain everything. Your drivers find working chargers, not excuses.</p>
       </div>
-
-      <div class="feature-card">
+      <div class="fleet-card">
         <h3>Fleet Pricing</h3>
         <p>Volume discounts and predictable rates. Your accountant will actually understand the invoices.</p>
       </div>
-
-      <div class="feature-card">
+      <div class="fleet-card">
         <h3>Dedicated Support</h3>
         <p>Real humans who pick up the phone. Problems get solved, not escalated into oblivion.</p>
       </div>
     </div>
 
-    <div style="text-align: center; margin-top: 2rem;">
+    <div class="fleet-cta">
       <a href="mailto:fleet@chargevia.net" class="btn btn-primary btn-lg">Talk to Fleet Team</a>
     </div>
   </div>
 </section>
 
 <!-- Partners Section -->
-<section id="partners" class="bg-light">
+<section class="partners" id="partners">
   <div class="container">
     <div class="section-header">
-      <h2>Partner With Us</h2>
-      <p class="lead">Got a property? We handle the infrastructure. You share in the revenue.</p>
+      <span class="section-label">Partner With Us</span>
+      <h2 class="section-title">Partner With Us</h2>
+      <p class="section-description">Got a property? We handle the infrastructure. You share in the revenue.</p>
     </div>
 
-    <div class="feature-grid" style="max-width: 800px; margin: 0 auto;">
-      <div class="feature-card">
+    <div class="partners-grid">
+      <div class="partner-card">
         <h3>Property Owners</h3>
         <p>Former gas stations are ideal, but we're open to any high-traffic commercial property. We handle infrastructure, installation, and operations.</p>
+        <a href="mailto:partners@chargevia.net" class="btn btn-secondary">Get in Touch</a>
       </div>
-
-      <div class="feature-card">
+      <div class="partner-card">
         <h3>Convenience Operators</h3>
         <p>EV charging brings people who need 15-30 minutes. That's a captive audience for coffee, snacks, and everything else you sell.</p>
+        <a href="mailto:partners@chargevia.net" class="btn btn-secondary">Get in Touch</a>
       </div>
-    </div>
-
-    <div style="text-align: center; margin-top: 2rem;">
-      <a href="mailto:partners@chargevia.net" class="btn btn-primary btn-lg">Get in Touch</a>
     </div>
   </div>
 </section>
 
 <!-- FAQ Section -->
-<section id="faq">
+<section class="faq" id="faq">
   <div class="container">
     <div class="section-header">
-      <h2>FAQ</h2>
-      <p class="lead">Everything you wanted to know but were too busy charging to ask.</p>
+      <span class="section-label">FAQ</span>
+      <h2 class="section-title">Questions & Answers</h2>
+      <p class="section-description">Everything you wanted to know but were too busy charging to ask.</p>
     </div>
 
-    <div class="faq-list" style="max-width: 800px; margin: 0 auto;">
+    <div class="faq-list">
       <div class="faq-item">
         <button class="faq-question">
           <span>What is ChargeVia?</span>
@@ -329,7 +374,7 @@ description: ChargeVia is the EV gas station. Fast charging + convenience store 
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
-          <p>Most charging networks stick chargers in parking lots or garages and call it a day. We actually thought about what makes charging suck less: multiple fast chargers so you're not waiting in line, a real convenience store, a lounge to hang out in, clean restrooms, and covered bays so you don't get rained on. It's a pit stop, not a punishment.</p>
+          <p>Most charging networks stick chargers in parking lots or garages and call it a day. We actually thought about what makes charging suck less: multiple fast chargers so you're not waiting in line, a real convenience store, a lounge to hang out in, clean restrooms, and covered bays so you don't get rained on.</p>
         </div>
       </div>
 
@@ -339,7 +384,7 @@ description: ChargeVia is the EV gas station. Fast charging + convenience store 
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
-          <p>ChargeVia stations have CCS (Combined Charging System) connectors, which work with most electric vehicles including Tesla (with adapter), Rivian, Ford, Chevrolet, Hyundai, Kia, BMW, Mercedes, Volkswagen, and others. If your EV has a CCS port, it'll work at ChargeVia.</p>
+          <p>ChargeVia stations have both CCS (Combined Charging System) and NACS (North American Charging Standard) connectors. CCS is the standard used by most EVs from brands like Hyundai, Kia, BMW, Mercedes, and Volkswagen. NACS is Tesla's connector that's quickly becoming the new industry standard - Ford, GM, Rivian, and others are all switching to it. Bottom line: if you drive an EV, you can charge at ChargeVia.</p>
         </div>
       </div>
 
@@ -376,21 +421,17 @@ description: ChargeVia is the EV gas station. Fast charging + convenience store 
   </div>
 </section>
 
-<!-- Contact Section -->
-<section id="contact" class="bg-light">
+<!-- CTA Section -->
+<section class="cta-section">
+  <div class="cta-glow"></div>
   <div class="container">
-    <div class="section-header">
-      <h2>Say Hi</h2>
-      <p class="lead">Questions? Ideas? Just want to chat about EVs? We're into it.</p>
-    </div>
-
-    <div style="max-width: 400px; margin: 0 auto;">
-      <div class="feature-card text-center" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-        <h3>General Inquiries</h3>
-        <p style="margin-bottom: 1.5rem;">Questions about ChargeVia or charging at our stations.</p>
-        <a href="mailto:hello@chargevia.net" class="btn btn-secondary" style="display: inline-flex; align-items: center; justify-content: center; line-height: 1;">hello@chargevia.net</a>
+    <div class="cta-content">
+      <h2>Ready to Charge?</h2>
+      <p>ChargeVia stations are coming soon. Got questions? We'd love to hear from you.</p>
+      <div class="cta-buttons">
+        <a href="#locations" class="btn btn-primary btn-lg">View Locations</a>
+        <a href="mailto:hello@chargevia.net" class="btn btn-secondary btn-lg">Say Hello</a>
       </div>
     </div>
   </div>
 </section>
-
