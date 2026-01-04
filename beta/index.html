@@ -995,38 +995,6 @@
       font-size: 1.1rem;
     }
 
-    .email-form {
-      display: flex;
-      gap: 1rem;
-      max-width: 500px;
-      margin: 0 auto;
-    }
-
-    .email-form input {
-      flex: 1;
-      padding: 1rem 1.5rem;
-      font-family: var(--font-family);
-      font-size: 1rem;
-      border: 2px solid #E5E5E5;
-      border-radius: 100px;
-      outline: none;
-      transition: border-color 0.3s ease;
-    }
-
-    .email-form input:focus {
-      border-color: var(--charge-orange);
-    }
-
-    .email-form input::placeholder {
-      color: #999;
-    }
-
-    @media (max-width: 640px) {
-      .email-form {
-        flex-direction: column;
-      }
-    }
-
     .locations-types {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -1995,11 +1963,7 @@
 
         <div class="locations-coming-soon">
           <h3>Stations Coming Soon</h3>
-          <p>We're building as fast as we can. Drop your email to be first to know when we open near you.</p>
-          <form class="email-form">
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit" class="btn btn-primary">Notify Me</button>
-          </form>
+          <p>We're building as fast as we can. Check back soon for locations near you.</p>
         </div>
 
         <div class="locations-types">
@@ -2160,9 +2124,9 @@
       <div class="container">
         <div class="cta-content">
           <h2>Ready to Charge?</h2>
-          <p>Join the waitlist and be the first to know when ChargeVia opens near you.</p>
+          <p>ChargeVia stations are coming soon. Got questions? We'd love to hear from you.</p>
           <div class="cta-buttons">
-            <a href="#locations" class="btn btn-primary btn-lg">Get Notified</a>
+            <a href="#locations" class="btn btn-primary btn-lg">View Locations</a>
             <a href="mailto:hello@chargevia.net" class="btn btn-secondary btn-lg">Say Hello</a>
           </div>
         </div>
