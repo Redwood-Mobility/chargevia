@@ -1,0 +1,40 @@
+<header class="site-header">
+  <div class="container">
+    <nav class="nav">
+      <a href="{{ '/beta/' | relative_url }}" class="logo">
+        <svg width="200" height="48" viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg" aria-label="ChargeVia">
+          <defs>
+            <linearGradient id="headerOrangeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#FF6B35"/>
+              <stop offset="100%" style="stop-color:#E85A24"/>
+            </linearGradient>
+            <linearGradient id="headerPurpleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#8B6BB4"/>
+              <stop offset="100%" style="stop-color:#7B5BA4"/>
+            </linearGradient>
+          </defs>
+          <g transform="translate(0, 6) scale(0.6)">
+            <rect x="4" y="4" width="72" height="72" rx="16" fill="#1A1A24"/>
+            <path d="M22 22 L40 40 L22 58" stroke="url(#headerOrangeGrad)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <path d="M40 22 L58 40 L40 58" stroke="url(#headerPurpleGrad)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </g>
+          <text x="62" y="42" font-family="Outfit, sans-serif" font-weight="700" font-size="38" fill="#FFFFFF">Charge</text>
+          <text x="186" y="42" font-family="Outfit, sans-serif" font-weight="700" font-size="38" fill="#FF6B35">Via</text>
+        </svg>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="{{ '/beta/' | relative_url }}#features">The Format</a></li>
+        <li><a href="{{ '/beta/locations.html' | relative_url }}">Locations</a></li>
+        <li><a href="{{ '/beta/fleet.html' | relative_url }}">Fleet</a></li>
+        <li><a href="{{ '/beta/partners.html' | relative_url }}">Partners</a></li>
+        <li><a href="{{ '/beta/faq.html' | relative_url }}">FAQ</a></li>
+        <li class="nav-cta"><a href="{{ '/beta/membership.html' | relative_url }}" class="btn btn-primary">Pathfinder Rewards</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
