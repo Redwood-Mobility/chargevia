@@ -287,7 +287,7 @@ p {
   -webkit-backdrop-filter: blur(20px);
   border: 3px solid var(--border-color);
   border-radius: var(--radius-pill);
-  padding: 12px 20px 16px 24px;
+  padding: 12px 20px 12px 24px;
   box-shadow: var(--shadow-chunky-sm);
 }
 
@@ -345,7 +345,7 @@ p {
 }
 
 .nav-cta .btn {
-  padding: 10px 24px;
+  padding: 8px 18px;
   font-size: 0.875rem;
   color: white;
 }
