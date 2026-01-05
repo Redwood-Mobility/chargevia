@@ -1317,6 +1317,16 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-light-muted);
 }
 
+.footer-bottom a {
+  color: var(--charge-orange);
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  opacity: 0.8;
+}
+
 .pathfinder-badge {
   display: flex;
   align-items: center;
