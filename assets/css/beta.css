@@ -1171,9 +1171,20 @@ section {
   margin-bottom: var(--space-sm);
 }
 
-.heritage-text a {
+.heritage-text a,
+.team-section a,
+.mission-section a {
   color: var(--charge-orange);
   font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transition-fast);
+}
+
+.heritage-text a:hover,
+.team-section a:hover,
+.mission-section a:hover {
+  color: var(--power-purple);
 }
 
 .heritage-image-container {
