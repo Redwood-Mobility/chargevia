@@ -340,6 +340,11 @@ p {
 .nav-cta .btn {
   padding: 10px 24px;
   font-size: 0.875rem;
+  color: white;
+}
+
+.nav-cta .btn:hover {
+  color: white;
 }
 
 /* Mobile Navigation */
