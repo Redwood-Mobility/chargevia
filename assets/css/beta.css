@@ -21,8 +21,8 @@
 
   /* Text Colors */
   --text-primary: #FFFFFF;
-  --text-secondary: #9CA3AF;
-  --text-muted: #6B7280;
+  --text-secondary: #C9CDD4;
+  --text-muted: #9CA3AF;
 
   /* Gradients */
   --gradient-brand: linear-gradient(135deg, var(--charge-orange) 0%, var(--power-purple) 100%);
